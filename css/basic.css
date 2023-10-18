@@ -7,6 +7,12 @@ body {
   padding: 0;
 }
 
+@media (max-width: 768px) {
+  body {
+    overflow: none;
+  }
+}
+
 .flipbook-viewport {
   overflow: hidden;
   width: 100%;
