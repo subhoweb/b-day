@@ -1,16 +1,10 @@
 /* Basic sample */
 
 body {
-  overflow: auto;
+  overflow: none;
   background-color: lightcoral;
   margin: 0;
   padding: 0;
-}
-
-@media (min-width: 275px) and (max-width: 766px) {
-  body {
-    overflow: none !important;
-  }
 }
 
 .flipbook-viewport {
