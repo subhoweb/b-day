@@ -7,7 +7,7 @@ body {
   padding: 0;
 }
 
-@media (max-width: 766px) {
+@media (min-width: 275px) and (max-width: 766px) {
   body {
     overflow: none !important;
   }
