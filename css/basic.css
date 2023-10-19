@@ -2,14 +2,14 @@
 
 body {
   overflow: auto;
-  background-color: #fcfcfc;
+  background-color: lightcoral;
   margin: 0;
   padding: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 766px) {
   body {
-    overflow: none;
+    overflow: none !important;
   }
 }
 
@@ -101,10 +101,19 @@ html {
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  margin-left: 5%;
+  flex-direction: column;
 }
 @media (min-width: 1024px) {
   .flipbook {
     margin-top: 30rem;
   }
+}
+
+.name {
+  font-size: larger;
+}
+
+img.bimg {
+  height: 500px;
+  width: 400px;
 }
